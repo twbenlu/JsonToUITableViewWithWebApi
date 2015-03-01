@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		713992DE1A9F4CDE00F038C5 /* libJson.OC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 713992DD1A9F4CDE00F038C5 /* libJson.OC.a */; };
 		718C5CB81A9D53AA002AEA8D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 718C5CB71A9D53AA002AEA8D /* main.m */; };
 		718C5CBB1A9D53AA002AEA8D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 718C5CBA1A9D53AA002AEA8D /* AppDelegate.m */; };
 		718C5CBE1A9D53AA002AEA8D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 718C5CBD1A9D53AA002AEA8D /* ViewController.m */; };
@@ -14,6 +15,8 @@
 		718C5CC31A9D53AA002AEA8D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 718C5CC21A9D53AA002AEA8D /* Images.xcassets */; };
 		718C5CC61A9D53AA002AEA8D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 718C5CC41A9D53AA002AEA8D /* LaunchScreen.xib */; };
 		718C5CD21A9D53AA002AEA8D /* __UITableViewWithWebApiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 718C5CD11A9D53AA002AEA8D /* __UITableViewWithWebApiTests.m */; };
+		718C5CDD1A9D55A8002AEA8D /* myCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 718C5CDC1A9D55A8002AEA8D /* myCell.m */; };
+		718C5CE41A9D5AE1002AEA8D /* object.m in Sources */ = {isa = PBXBuildFile; fileRef = 718C5CE31A9D5AE1002AEA8D /* object.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +30,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		713992DD1A9F4CDE00F038C5 /* libJson.OC.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libJson.OC.a; sourceTree = "<group>"; };
 		718C5CB21A9D53AA002AEA8D /* 7_UITableViewWithWebApi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 7_UITableViewWithWebApi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		718C5CB61A9D53AA002AEA8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		718C5CB71A9D53AA002AEA8D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +44,12 @@
 		718C5CCB1A9D53AA002AEA8D /* 7_UITableViewWithWebApiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 7_UITableViewWithWebApiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		718C5CD01A9D53AA002AEA8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		718C5CD11A9D53AA002AEA8D /* __UITableViewWithWebApiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = __UITableViewWithWebApiTests.m; sourceTree = "<group>"; };
+		718C5CDB1A9D55A8002AEA8D /* myCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myCell.h; sourceTree = "<group>"; };
+		718C5CDC1A9D55A8002AEA8D /* myCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myCell.m; sourceTree = "<group>"; };
+		718C5CDE1A9D5AD7002AEA8D /* Jastor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Jastor.h; sourceTree = "<group>"; };
+		718C5CDF1A9D5AD7002AEA8D /* JastorRuntimeHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JastorRuntimeHelper.h; sourceTree = "<group>"; };
+		718C5CE21A9D5AE1002AEA8D /* object.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = object.h; sourceTree = "<group>"; };
+		718C5CE31A9D5AE1002AEA8D /* object.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = object.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				713992DE1A9F4CDE00F038C5 /* libJson.OC.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +74,13 @@
 		718C5CA91A9D53AA002AEA8D = {
 			isa = PBXGroup;
 			children = (
+				713992DD1A9F4CDE00F038C5 /* libJson.OC.a */,
+				718C5CE21A9D5AE1002AEA8D /* object.h */,
+				718C5CE31A9D5AE1002AEA8D /* object.m */,
+				718C5CDE1A9D5AD7002AEA8D /* Jastor.h */,
+				718C5CDF1A9D5AD7002AEA8D /* JastorRuntimeHelper.h */,
+				718C5CDB1A9D55A8002AEA8D /* myCell.h */,
+				718C5CDC1A9D55A8002AEA8D /* myCell.m */,
 				718C5CB41A9D53AA002AEA8D /* 7_UITableViewWithWebApi */,
 				718C5CCE1A9D53AA002AEA8D /* 7_UITableViewWithWebApiTests */,
 				718C5CB31A9D53AA002AEA8D /* Products */,
@@ -220,6 +238,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				718C5CBE1A9D53AA002AEA8D /* ViewController.m in Sources */,
+				718C5CDD1A9D55A8002AEA8D /* myCell.m in Sources */,
+				718C5CE41A9D5AE1002AEA8D /* object.m in Sources */,
 				718C5CBB1A9D53AA002AEA8D /* AppDelegate.m in Sources */,
 				718C5CB81A9D53AA002AEA8D /* main.m in Sources */,
 			);
@@ -345,6 +365,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = 7_UITableViewWithWebApi/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -355,6 +379,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = 7_UITableViewWithWebApi/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -412,6 +440,7 @@
 				718C5CD71A9D53AA002AEA8D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		718C5CD81A9D53AA002AEA8D /* Build configuration list for PBXNativeTarget "7_UITableViewWithWebApiTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +449,7 @@
 				718C5CDA1A9D53AA002AEA8D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
